@@ -77,10 +77,15 @@
         <input type="text" id="inpc" placeholder="Enter the color name"><br>
         <p>BY default it will take the white color in blank.<br>IF the code is in hex value start with "#"</p><br>
         <button onclick="inpcol()">Change</button>
+        <button onclick="chch()">Click here to see the dropdown</button>
     </div>
 </div>
 </div>
 <script>
+    function chch()
+    {
+        window.location.assign("color.html");
+    }
     function red()
     {
         document.body.style.backgroundColor = "red";

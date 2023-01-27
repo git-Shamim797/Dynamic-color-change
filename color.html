@@ -38,18 +38,6 @@
 <body>
     <div class="container">
         <div class="btn">
-    <h1>Change the color of page.</h1>
-    <p>you can change the color by clicking on the Buttons.</p>
-    <p>Select the color:</p>
-    <ol>
-            <li><button onclick="red()">RED</button></li>
-            <li><button onclick="green()">GREEN</button></li>
-            <li><button onclick="blue()">BLUE</button></li>
-            <li><button onclick="bisque()">BISQUE</button></li>
-            <li><button onclick="gray()">GRAY</button></li>
-            <li><button onclick="purple()">PURPLE</button></li>
-            <li><button onclick="de()">Default</button></li>
-    </ol>
     <div style="position: relative; top: 10%; left: 0;">
         <h1>Droupdown color selection.</h1>
         <select onchange="color(this)">
@@ -73,34 +61,7 @@
         document.body.style.backgroundColor=a.value;
         }
     }
-    function red()
-    {
-        document.body.style.backgroundColor = "red";
-    }
-    function green()
-    {
-        document.body.style.backgroundColor = "green";
-    }
-    function blue()
-    {
-        document.body.style.backgroundColor= "blue";
-    }
-    function bisque()
-    {
-        document.body.style.backgroundColor= "bisque";
-    }
-    function gray()
-    {
-        document.body.style.backgroundColor= "gray";
-    }
-    function purple()
-    {
-        document.body.style.backgroundColor= "purple";
-    }
-    function de()
-    {
-        document.body.style.backgroundColor= "white";
-    }
+    
 </script>
 </body>
 </html> 
